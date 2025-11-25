@@ -46,7 +46,7 @@ export default function Form() {
         <div className="row">
           <div className="mb-3 ">
             <label className="form-label fw-semibold">Width</label>
-            <input type="text" className="form-control input-style" name="width" onChange={inputhandler} />
+            <input type="number" className="form-control input-style" name="width" onChange={inputhandler} />
           </div>
          
         </div>
@@ -58,7 +58,7 @@ export default function Form() {
 
         <div className="mb-3">
           <label className="form-label fw-semibold">Price</label>
-          <input type="text" className="form-control input-style" name="price" onChange={inputhandler} />
+          <input type="number" className="form-control input-style" name="price" onChange={inputhandler} />
         </div>
 
         <div className="mb-3">
